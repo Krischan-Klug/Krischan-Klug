@@ -4,7 +4,7 @@
 - [x] **Basic Linux and Windows server management**
 - [x] **Basic gameserver management**
 - [x] **C#**
-- [ ] **WebDev (html,CSS and JS)**
+- [ ] **WebDev (html, CSS and JS)**
 
 ## What i do at the moment 🔧
 
