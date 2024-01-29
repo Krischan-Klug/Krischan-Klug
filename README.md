@@ -6,13 +6,13 @@
 - [x] **C#**
 - [ ] **WebDev (html,CSS and JS)**
 
-## What i do at the moment:
+## What i do at the moment 🔧
 
 <p align="center">
    <img src="https://media.giphy.com/media/f9XgHHnPnDjOF1hWpl/giphy.gif" />
    </p>
 
-   ## Languages and tools:
+   ## Languages and tools 🖋️
 
 <p align="center">
   <!-- For more icons please follow  https://github.com/MikeCodesDotNET/ColoredBadges -->
@@ -25,7 +25,7 @@
 </p>
 
 
-## Follow Me!
+## Follow Me! 🫱🏼‍🫲🏻
 ![GitHub followers](https://img.shields.io/github/followers/Krischan-Klug?label=Follow&style=social)
 
 
