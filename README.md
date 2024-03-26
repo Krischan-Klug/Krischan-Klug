@@ -5,7 +5,7 @@
 - [x] **Basic gameserver management**
 - [x] **C#**
 - [x] **Webdev (HTML, CSS and JS)**
-- [ ] **React**
+- [x] **React / NextJS**
 
 ## What i do at the moment 🔧
 
