@@ -1,8 +1,8 @@
 # About me 🪪
 
 ## Skills 🖥️
-- [x] **Basic Linux and Windows server management**
-- [x] **Basic gameserver management**
+- [x] **Linux and Windows server management**
+- [x] **Unity**
 - [x] **C#**
 - [x] **Webdev (HTML, CSS and JS)**
 - [x] **React / NextJS**
