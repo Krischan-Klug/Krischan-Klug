@@ -13,7 +13,7 @@
 
 ---
 
-## 💡 About Me (as an object)
+## 🪪 About Me (as an object)
 ```javascript
 const krischan = {
   name: "Krischan Klug",
@@ -25,11 +25,11 @@ const krischan = {
   },
   focus: [
     "Clean auth & API design",
-    "Reusable UI components",
+    "Reusable components",
     "Performance & Developer Experience",
     "Secure deployments & monitoring"
   ],
-  currently: "Refining a Next.js architecture with clear auth, stable state management, and great DX",
+  currently: "Refining a Next.js architecture with clear auth, stable state management, and MySQL access",
   values: ["Clean Code", "Transparent docs", "Pragmatic solutions"]
 };
 
@@ -41,47 +41,43 @@ import React, { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import App from "./App";
 
-// pretend-unified modules (because it's one product, not two sides)
 import * as db from "./backend/db";
 import * as api from "./backend/api";
 import * as auth from "./backend/auth";
 import * as rt from "./backend/realtime"; // websockets/events
 
 (async function boot() {
-  // 1) Bring the backend online
   await db.connect();
   await api.warmup({ cache: true });
   await auth.init({ strategy: "jwt" });
   rt.connect();
 
-  console.log("🗄️ DB + 🔌 API + 🔐 Auth + ⚡ Realtime => ready.");
+  console.log(" DB +  API +  Auth => ready.");
 
-  // 2) Hydrate the frontend
   const root = createRoot(document.getElementById("root"));
   root.render(
     <StrictMode>
-      {/* front meets back — same repo, same mindset */}
       <App />
     </StrictMode>
   );
 
-  // 3) Sanity ping (because vibes matter)
-  api.health().then(({ ok }) => ok && console.log("✅ /api/health OK"));
+  api.health().then(({ ok }) => ok && console.log("/api/health OK"));
 })();
 ```
 
-## 🧰 Tech Stack
-**Core:** React • Next.js • TypeScript/JavaScript • Node.js  
-**Game:** Unity • C#  
-**Backend/DB:** REST • MongoDB • JWT/NextAuth • WebSockets  
-**Ops:** Linux/Windows Server • Git • CI/CD • Docker (Basics)
+## ⌨️ Tech Stack
+**Core:** HTML • CSS • JS • C# • C++ • Python <br>
+**Web:** React • Next.js • TypeScript/JavaScript • Node.js  <br>
+**Backend/DB:** REST • MongoDB • JWT/NextAuth • WebSockets  <br>
+**Game:** Unity <br>
+**Ops:** Linux/Windows Server • Git • CI/CD • Docker (Basics) <br>
 
 ---
 
-## 🧩 Strengths
-- Structured **Next.js** apps with clean auth & API layer  
+## 📊 Strengths
+- Structured apps with clean auth & API layer  
 - UI/UX with a focus on **performance**, **state management**, and **reusability**  
-- **Unity** games: gameplay programming, tooling, build pipelines (**C#**)  
+- **Unity** games: gameplay programming, tooling, packets (**C#**)  
 - **Server Ops**: deployments, logging, monitoring, automation
 
 ---
