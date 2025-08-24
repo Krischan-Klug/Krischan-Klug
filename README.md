@@ -68,8 +68,8 @@ import * as rt from "./backend/realtime"; // websockets/events
 ## ⌨️ Tech Stack
 **Core:** HTML • CSS • JS • C# • C++ • Python <br>
 **Web:** React • Next.js • TypeScript/JavaScript • Node.js  <br>
-**Backend/DB:** REST • MongoDB • JWT/NextAuth • WebSockets  <br>
-**Game:** Unity <br>
+**Backend/DB:** REST • MongoDB • MySQL • JWT/NextAuth • WebSockets  <br>
+**Game:** Unity • TrinityCore <br>
 **Ops:** Linux/Windows Server • Git • CI/CD • Docker (Basics) <br>
 
 ---
