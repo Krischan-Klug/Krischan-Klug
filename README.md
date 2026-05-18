@@ -14,7 +14,7 @@
 
 ---
 
-## 🧭 About Me
+##  About Me
 
 I'm a pragmatic developer focused on building clean, useful, and maintainable software.
 
